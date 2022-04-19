@@ -1,0 +1,8 @@
+<img width="<!-- calculate it in your component controller using ${pdict.content.size} -->" src="${pdict.content.image.getAbsURL()}" alt="${pdict.content.alt}"/>
+<div>
+   HOLA BANNER
+</div>
+<iscomment>
+   // if the 'assets.banner' component type had a region 'foobar' we could render it here
+   <isprint value="${PageMgr.renderRegion( pdict.component.getRegion('foobar') )}" encoding="off"/>
+</iscomment>

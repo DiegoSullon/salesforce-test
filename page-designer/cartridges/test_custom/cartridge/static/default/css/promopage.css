@@ -1,0 +1,19 @@
+.experience-region {
+  height: 200px;
+  width: 400px;
+  background-color: red; }
+
+.experience-main {
+  height: 200px;
+  width: 400px;
+  background-color: blue; }
+
+.promopage {
+  min-height: 200px;
+  min-width: 400px;
+  background-color: gainsboro; }
+
+.experience-component {
+  height: 200px;
+  width: 400px;
+  background-color: aqua; }

@@ -1,0 +1,13 @@
+<isdecorate template="common/layout/page">
+   <isscript>
+      var assets = require('*/cartridge/scripts/assets.js');
+      assets.addCss('/css/promopage.css');
+   </isscript>
+   <div class="promopage" id="${pdict.page.ID}">
+      <isprint value="${pdict.regions.title.render()}" encoding="off" />
+      <isprint value="${pdict.regions.header.render()}" encoding="off" />
+      <isprint value="${pdict.regions.main.render()}" encoding="off" />
+      <isprint value="${pdict.regions.footer.render()}" encoding="off" />
+      <iscomment> <isprint value="${PageMgr.renderRegion(pdict.page.getRegion('footer'))}" encoding="off" /> </iscomment>
+   </div>
+</isdecorate>

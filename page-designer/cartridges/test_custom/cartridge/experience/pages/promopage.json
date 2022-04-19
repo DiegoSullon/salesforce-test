@@ -1,0 +1,37 @@
+{
+  "name": "Promopage",
+  "description": "A promotional page example.",
+  "region_definitions": [
+    {
+      "id": "header",
+      "name": "header Region example",
+      "component_type_exclusions": [
+        { "type_id": "commerce_assets.campaignBanner" }
+      ]
+    },
+    {
+      "id": "main",
+      "name": "main Region example",
+      "default_component_constructors": [
+        {
+          "type_id": "commerce_layouts.productDetail",
+          "name": "Product Detail Layout"
+        }
+      ],
+      "component_type_exclusions": [
+        { "type_id": "commerce_assets.campaignBanner" }
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "footer Region example",
+      "component_type_exclusions": [
+        { "type_id": "commerce_assets.campaignBanner" }
+      ]
+    },
+    {
+      "id": "title",
+      "name": "Title"
+    }
+  ]
+}
